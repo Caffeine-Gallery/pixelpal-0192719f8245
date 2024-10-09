@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint and Share</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Paint and Share</h1>
+        <div id="paint-mode">
+            <canvas id="canvas"></canvas>
+            <div id="controls">
+                <input type="color" id="color-picker" value="#000000">
+                <input type="range" id="brush-size" min="1" max="50" value="5">
+                <button id="clear-btn">Clear</button>
+                <button id="save-btn">Save & Share</button>
+            </div>
+        </div>
+        <div id="view-mode" style="display: none;">
+            <img id="saved-image" alt="Saved Image">
+            <p>Share this URL with your friend:</p>
+            <input type="text" id="share-url" readonly>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

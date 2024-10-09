@@ -1,0 +1,4 @@
+service : {
+  getImage: (text) -> (opt text) query;
+  saveImage: (text) -> (text);
+}

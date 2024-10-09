@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#app {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls input, #controls button {
+    margin: 0 10px;
+}
+
+#view-mode {
+    margin-top: 20px;
+}
+
+#saved-image {
+    max-width: 100%;
+    max-height: 60vh;
+    border: 1px solid #000;
+}
+
+#share-url {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    padding: 5px;
+}
